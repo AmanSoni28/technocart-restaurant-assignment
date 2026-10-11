@@ -2,7 +2,7 @@ import axios from 'axios';
 
 const api = axios.create({
   baseURL: import.meta.env.PROD
-    ? 'https://technocart-restaurant-assignment.onrender.com/api'
+    ? 'https://technocart-restaurant-assignment-back.onrender.com/api'
     : '/api',
   timeout: 15000,
 });
